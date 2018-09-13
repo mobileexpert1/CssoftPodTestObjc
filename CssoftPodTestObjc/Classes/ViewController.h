@@ -9,5 +9,5 @@
 
 @interface ViewController : UIViewController
 -(void)showViewWithTitle:(NSString*)title controller:(UIViewController*)viewController;
-    
+- (void)showFromViewController:(UIViewController *)viewController title:(NSString*)title;
 @end

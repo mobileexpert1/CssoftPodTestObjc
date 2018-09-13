@@ -24,6 +24,12 @@
     
 }
     
+- (void)showFromViewController:(UIViewController *)viewController title:(NSString*)title{
+    NSLog(@"title %@",title);
+    [viewController.view addSubview:self.view];
+    
+}
+    
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

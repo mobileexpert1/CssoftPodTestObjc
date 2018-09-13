@@ -20,7 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     ViewController *controller = [[ViewController alloc]init];
-    [controller showViewWithTitle:@"sdfsdf" controller:self];
+    [controller showFromViewController:self title:@"sdfdsf"];
     
 }
 
