@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CssoftPodTestObjc_Example' do
+  pod 'CssoftPodTestObjc', :path => '../'
+
+  target 'CssoftPodTestObjc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
