@@ -1,0 +1,6 @@
+framework module CssoftPodTestObjc {
+  umbrella header "CssoftPodTestObjc-umbrella.h"
+
+  export *
+  module * { export * }
+}

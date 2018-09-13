@@ -7,7 +7,7 @@
 //
 
 #import "CssoftViewController.h"
-
+#import <CssoftPodTestObjc/ViewController.h>
 @interface CssoftViewController ()
 
 @end
@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    ViewController *controller = [[ViewController alloc]init];
+    [controller showViewWithTitle:@"sdfsdf" controller:self];
+    
 }
 
 - (void)didReceiveMemoryWarning

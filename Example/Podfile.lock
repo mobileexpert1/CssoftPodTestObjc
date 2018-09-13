@@ -1,0 +1,16 @@
+PODS:
+  - CssoftPodTestObjc (0.1.0)
+
+DEPENDENCIES:
+  - CssoftPodTestObjc (from `../`)
+
+EXTERNAL SOURCES:
+  CssoftPodTestObjc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CssoftPodTestObjc: 9ff0e510dd4c488ade8fbac46d277fbd2922c026
+
+PODFILE CHECKSUM: 857283026395be2bf6cf79a8533efd95a674f74d
+
+COCOAPODS: 1.5.0
