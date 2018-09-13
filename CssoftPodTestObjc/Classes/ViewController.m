@@ -19,7 +19,7 @@
 }
 
 -(void)showViewWithTitle:(NSString*)title controller:(UIViewController*)viewController{
-    NSLog(@"title %@",title);
+    NSLog(@"title %@",title); // asdfasdfsadfasdfasdfasdfadsfsdfsadf
     [viewController.view addSubview:self.view];
     
 }

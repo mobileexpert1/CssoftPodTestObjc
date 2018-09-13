@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CssoftPodTestObjc'
-  s.version          = '1.0.3'
+  s.version          = '1.0.7'
   s.summary          = 'A short description of CssoftPodTestObjc.'
 
 # This description is used to generate tags and improve search results.
